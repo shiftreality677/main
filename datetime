@@ -1,0 +1,12 @@
+import java.util.Date;
+
+public class GreetingScript {
+    public static void main(String[] args) {
+        String name = "John"; // Замените на ваше имя или желаемое приветствие
+        
+        System.out.println("Hello, " + name + "!");
+        
+        Date currentDate = new Date();
+        System.out.println("Today is " + currentDate);
+    }
+}
